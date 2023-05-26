@@ -1,0 +1,10 @@
+.titulo {
+    border: 2px dotted var(--cor-escura);
+    font-size: 3.75rem;
+    font-weight: bold;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    color: var(--cor-escura);
+    padding: 15px 50px;
+    text-align: center;
+}
