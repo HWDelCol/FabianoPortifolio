@@ -2,29 +2,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 745.6;
-    width: 100vw;
     margin: auto;
 }
 .Container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 .left {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 50vw;
 }
 .intro {
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    height: 100vh;
     padding: 0 20px;
 }
 .intro header p{
@@ -36,16 +30,19 @@ body {
     font-size: 2.5rem;
     color: var(--cor-destaque);
 }
+p.name{
+    display: none;
+}
 .profissao {
     background: var(--cor-destaque);
     text-align: center;
-    width: 400px;
+    padding: 10px;
     font-size: 1.875rem;
     margin-bottom: 20px;
     border-radius: 5px;
 }
-.content {
-    width: 500px;
+.content{
+    width: 80%;
 }
 .btn {
     border-radius: 30px;
@@ -57,6 +54,8 @@ body {
     color: var(--cor-clara);
     margin-top: 20px;
     transition: all 300ms ease-in-out;
+    text-transform: uppercase;
+    font-size: 1.5rem;
 }
 .btn:hover {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
@@ -65,12 +64,130 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 50vw;
     position: relative;
 }
-
-.right img {
-    height: 100vh;
-    width: 50vw;
+@media screen and (max-width: 1442px) {
+    .intro header p{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .intro header p span {
+        font-family: 'Train one';
+        font-size: 2rem;
+        color: var(--cor-destaque);
+    }    
+}
+@media screen and (max-width: 1317px) {
+    .profissao {
+        background: var(--cor-destaque);
+        text-align: center;
+        padding: 5px;
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .intro header p{
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .intro header p span {
+        font-family: 'Train one';
+        font-size: 1.8rem;
+        color: var(--cor-destaque);
+    }    
+}
+@media screen and (max-width: 1270px) {
+    .profissao {
+        background: var(--cor-destaque);
+        text-align: center;
+        padding: 5px;
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .intro header p{
+        font-size: 1.8rem;
+        font-weight: bold;
+        display: none;
+    }
+    .intro header p span {
+        font-family: 'Train one';
+        font-size: 1.8rem;
+        color: var(--cor-destaque);
+        display: none;
+    }    
+    .intro header p.name{
+        display: block;
+        font-family: 'Train one';
+        font-size: 1.8rem;
+        color: var(--cor-destaque);
+    }
+    .intro {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1156px) {
+    .intro header p{
+        font-size: 1.8rem;
+        font-weight: bold;
+        display: none;
+    }
+    .intro header p span {
+        font-family: 'Train one';
+        font-size: 1.8rem;
+        color: var(--cor-destaque);
+        display: none;
+    }    
+    .intro header p.name{
+        display: block;
+        font-family: 'Train one';
+        font-size: 2.5rem;
+        color: var(--cor-destaque);
+    }
+    .intro {
+        text-align: center;
+    }
+    .profissao {
+        display: none;
+    }
+    main .description {
+        display: none;
+    }
+    .btn {
+        border-radius: 30px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        background: var(--cor-destaque);
+        border: none;
+        color: var(--cor-clara);
+        margin-top: 20px;
+        transition: all 300ms ease-in-out;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 999px) {
+    .left {
+        display: none;
+    }
+    .right {
+        display: flex;
+    }
+    .right img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 778px) {
+    .left {
+        display: none;
+    }
+    .right {
+        display: block;
+    }
+    .right img {
+        max-width: 100%;
+        height: 800px;
+    }
 }
