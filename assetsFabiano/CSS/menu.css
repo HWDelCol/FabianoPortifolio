@@ -1,0 +1,19 @@
+.menulateral {
+    background: var(--cor-destaque);
+    position: absolute;
+    right: 30px;
+    top: 200px;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.menulateral ul li a span{
+    font-size: 48px;
+    padding: 10px, 5px;
+}
+.menulateral ul li a span:hover{
+    color: #ddd;
+}
+.menulateral ul li a span.active{
+    color: var(--cor-clara);
+}
