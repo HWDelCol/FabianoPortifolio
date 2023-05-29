@@ -1,0 +1,23 @@
+body{
+    height: 97vh;
+    width: 30vw;
+}
+.photo{
+    height: 40vh;
+    width: 20vw;
+    background: red;
+}
+.site-map{
+    height: 60vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: yellow;
+}
+.menu-site-map{
+    text-align: center;
+}
+.menu-site-map ul li{
+    padding: 10px;
+}

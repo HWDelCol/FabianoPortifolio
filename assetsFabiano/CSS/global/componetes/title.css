@@ -1,0 +1,12 @@
+.main-header{
+    border: 1px solid black;
+    width: 400px;
+    margin: 10px;
+    padding: 2rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 3.75rem;
+}

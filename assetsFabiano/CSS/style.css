@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+@import url(./global/global.css);
+
+/*Componentes*/
+@import url(./global/componetes/main-menu.css);
+@import url(./global/componetes/side-menu.css);
+@import url(./global/componetes/title.css);
