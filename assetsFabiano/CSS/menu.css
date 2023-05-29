@@ -17,3 +17,45 @@
 .menulateral ul li a span.active{
     color: var(--cor-clara);
 }
+@media screen and (max-width: 720px) {
+    .menulateral {
+        background: var(--cor-destaque);
+        position: absolute;
+        right: 30%;
+        top: 670px;
+        z-index: 1;
+        border-radius: 30px;
+    }
+   .menulateral ul {
+    display: flex;
+    flex-direction: row;
+   }
+}
+@media screen and (max-width: 520px) {
+    .menulateral {
+        background: var(--cor-destaque);
+        position: absolute;
+        right: 25%;
+        top: 670px;
+        z-index: 1;
+        border-radius: 30px;
+    }
+   .menulateral ul {
+    display: flex;
+    flex-direction: row;
+   }
+}
+@media screen and (max-width: 450px) {
+    .menulateral {
+        background: var(--cor-destaque);
+        position: absolute;
+        right: 15%;
+        top: 670px;
+        z-index: 1;
+        border-radius: 30px;
+    }
+   .menulateral ul {
+    display: flex;
+    flex-direction: row;
+   }
+}
