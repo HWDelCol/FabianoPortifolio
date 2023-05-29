@@ -66,6 +66,9 @@ p.name{
     align-items: center;
     position: relative;
 }
+.right img {
+    max-height: 745.6px;
+}
 @media screen and (max-width: 1442px) {
     .intro header p{
         font-size: 2rem;
