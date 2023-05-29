@@ -1,9 +1,14 @@
 @import url(reset.css);
 @import url(variaveis.css);
 @import url(details-about-page.css);
+@import url(reutilizaveis.css);
+@import url(titulo.css);
+@import url(menu.css);
 
 .warp {
     background: var(--cor-bg);
+    display: flex;
+
 }
 .left {
     display: flex;
@@ -17,7 +22,7 @@ img {
 .box-menu {
     background: var(--cor-destaque);
     width: 300px;
-    height: 435px;
+    height: 445px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,4 +34,55 @@ img {
 }
 .box-menu ul li {
     margin-bottom: 15px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.site-top {
+    margin-top: 40px;
+    margin-bottom: 2rem;
+}
+.site-top .sub-title {
+    margin-top: 32px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.site-midle{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.data-box {
+    margin-top: 2rem;
+    background: var(--cor-escura);
+    height: 300px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.data-main{
+    color: var(--cor-destaque);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.litle-title{
+    font-size: 1.25rem;
+    color: var(--cor-clara2);
+    font-weight: bold;
 }
