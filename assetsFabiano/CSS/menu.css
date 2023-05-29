@@ -59,3 +59,13 @@
     flex-direction: row;
    }
 }
+@media screen and (max-width: 400px) {
+    .menulateral {
+        background: var(--cor-destaque);
+        position: absolute;
+        right: 10%;
+        top: 670px;
+        z-index: 1;
+        border-radius: 30px;
+    }
+}
