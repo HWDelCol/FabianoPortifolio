@@ -9,4 +9,5 @@
 }
 .title{
     font-size: 3.75rem;
+    color: var(--cor-escura);
 }

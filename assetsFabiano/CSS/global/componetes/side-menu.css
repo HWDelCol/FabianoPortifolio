@@ -5,7 +5,6 @@ body{
 .photo{
     height: 40vh;
     width: 20vw;
-    background: red;
 }
 .site-map{
     height: 60vh;
@@ -13,7 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: yellow;
+    background: var(--cor-destaque);
 }
 .menu-site-map{
     text-align: center;
@@ -25,8 +24,8 @@ body{
     transition: 300ms;
 }
 .menu-site-map ul li a:hover{
-    color: #eee;
+    color: var(--cor-clara);
 }
 .active{
-    color: #eee;
+    color: var(--cor-clara);
 }
