@@ -6,3 +6,10 @@
     --cor-clara: #eee;
     --cor-escura: #111;
 }
+.cor-destaque{
+    color: var(--cor-destaque);
+}
+
+.bg-destaque{
+    background: var(--cor-destaque);
+}

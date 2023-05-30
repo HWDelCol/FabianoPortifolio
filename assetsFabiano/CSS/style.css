@@ -9,3 +9,6 @@
 @import url(./global/componetes/side-menu.css);
 @import url(./global/componetes/title.css);
 @import url(./global/componetes/detail-side-menu.css);
+
+/*pages*/
+@import url(./home/home.css);
