@@ -21,3 +21,12 @@ body{
 .menu-site-map ul li{
     padding: 10px;
 }
+.menu-site-map ul li{
+    transition: 300ms;
+}
+.menu-site-map ul li a:hover{
+    color: #eee;
+}
+.active{
+    color: #eee;
+}
