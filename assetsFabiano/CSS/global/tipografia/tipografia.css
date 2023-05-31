@@ -10,15 +10,22 @@
     font-size: 3rem;
     font-weight: bold;
 }
+.letra-media-tres{
+    font-size: 2rem;
+    font-weight: bold;
+}
 .corpo-de-texto{
     font-size: 2rem;
+    font-weight: bold;
+}
+.corpo-de-texto-dois{
+    font-size: 1.5rem;
     font-weight: bold;
 }
 .letra-pequena{
     font-size: 1.6rem;
     font-weight: bold;
 }
-
 .texto-geral{
     font-family:'Roboto';
 }

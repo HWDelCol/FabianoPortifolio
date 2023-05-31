@@ -6,6 +6,13 @@
     align-items: center;
     justify-content: space-around;
 }
+.card-container-resume{
+    width: 50rem;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .card-l{
     display: flex;
     align-items: center;
@@ -24,6 +31,15 @@
     align-items: center;
     justify-content: center;
 }
+.mini-card-resume{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin: 1rem;
+    width: 25rem;
+    height: 10rem;
+}
 @media screen and (max-width: 1081px) {
     .card-container{
         width: 40rem;
@@ -34,7 +50,31 @@
         justify-content: space-around;
     }
 }
-
+@media screen and (max-width: 810px ){
+    .card-container-resume{
+        width: 30rem;
+        height: 30rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .card-container-resume{
+        width: 50rem;
+        height: 50rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .mini-card-resume{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        margin: 1rem;
+        width: 25rem;
+        height: 10rem;
+    }
+}
 @media screen and (max-width: 701px) {
     .card-container{
         width: 35rem;

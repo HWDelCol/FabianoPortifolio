@@ -1,0 +1,20 @@
+.container-resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.left-resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+}
+.right-resume{
+    display: flex;
+    width: 70vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-escuro);
+}

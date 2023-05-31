@@ -1,6 +1,9 @@
 .caixa-grande{
     width: 60rem;
 }
+.caixa-pequena{
+    width: 15rem;
+}
 @media screen and (max-width: 1111px) {
     .caixa-grande{
         width: 50rem;
