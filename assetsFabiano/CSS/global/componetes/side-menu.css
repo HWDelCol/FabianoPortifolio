@@ -1,14 +1,14 @@
-body{
-    height: 97vh;
-    width: 30vw;
-}
+
 .photo{
     height: 40vh;
-    width: 20vw;
+    width: 30vw;
+    background: var(--bg-escuro) url(../../../imagens/IMG_0266-Edit.png) no-repeat;
+    background-size: 80%;
+    background-position: top center;
 }
 .site-map{
     height: 60vh;
-    width: 20vw;
+    width: 30vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,16 +16,30 @@ body{
 }
 .menu-site-map{
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .menu-site-map ul li{
     padding: 10px;
 }
-.menu-site-map ul li{
+.menu-site-map ul li a{
     transition: 300ms;
+    text-transform: uppercase;
 }
 .menu-site-map ul li a:hover{
     color: var(--cor-clara);
 }
 .active{
     color: var(--cor-clara);
+}
+@media screen and (max-width: 1081px) {
+    .photo{
+        background-size: 90%;
+    }
+}
+@media screen and (max-width: 801px) {
+    .photo{
+        background-size: 100%;
+    }
 }

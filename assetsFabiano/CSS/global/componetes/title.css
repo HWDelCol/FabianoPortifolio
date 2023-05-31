@@ -1,7 +1,7 @@
 .main-header{
-    border: 1px solid black;
+    border: 3px dotted var(--cor-escura);;
     width: 400px;
-    margin: 10px;
+    margin: .675rem;
     padding: 2rem 1.5rem;
     display: flex;
     align-items: center;
@@ -10,4 +10,49 @@
 .title{
     font-size: 3.75rem;
     color: var(--cor-escura);
+}
+.sub-title{
+    font-size: 2rem;
+    color: var(--cor-principal);
+    font-weight: bold;
+}
+@media screen and (max-width: 1081px) {
+    .main-header{
+        border: 3px dotted var(--cor-escura);
+        width: 300px;
+        margin: .875rem;
+        padding: 1.2rem .95rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .title{
+        font-size: 2.025rem;
+        color: var(--cor-escura);
+    }
+    .sub-title{
+        font-size: 1.5rem;
+        color: var(--cor-principal);
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 601px) {
+    .main-header{
+        border: 3px dotted var(--cor-escura);;
+        width: 200px;
+        margin: .675rem;
+        padding: 1rem .75rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .title{
+        font-size: 1.825rem;
+        color: var(--cor-escura);
+    }
+    .sub-title{
+        font-size: 1.3rem;
+        color: var(--cor-principal);
+        font-weight: bold;
+    }
 }

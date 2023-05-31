@@ -3,12 +3,15 @@
 
 @import url(./global/tipografia/tipografia.css);
 @import url(./global/cores/cores.css);
+@import url(./global/espacamento/espacamento.css);
+@import url(./global/caixas/caixa.css);
 
 /*Componentes*/
 @import url(./global/componetes/main-menu.css);
 @import url(./global/componetes/side-menu.css);
 @import url(./global/componetes/title.css);
 @import url(./global/componetes/detail-side-menu.css);
+@import url(./global/componetes/card.css);
 
 /*pages*/
 @import url(./home/home.css);

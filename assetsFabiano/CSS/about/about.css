@@ -1,0 +1,33 @@
+.left-about{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-about{
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-escuro);
+}
+.container-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+@media screen and (max-width: 601px) {
+    .left-about{
+        display: none;
+    }
+    .right-about{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

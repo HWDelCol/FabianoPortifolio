@@ -1,21 +1,21 @@
 .letra-grande{
-    font-size: 3.75rem;
+    font-size: 6rem;
     font-weight: bold;
 }
 .letra-media{
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 .letra-media-dois{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 .corpo-de-texto{
-    font-size: 1.25rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 .letra-pequena{
-    font-size: 0.625rem;
+    font-size: 1.6rem;
     font-weight: bold;
 }
 
@@ -28,4 +28,22 @@
 .sombra-texto{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2)
 ;
+}
+@media screen and (max-width: 1081px) {
+    .corpo-de-texto{
+        font-size: 1.5rem;
+    }
+    .letra-media{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 601px) {
+    .corpo-de-texto{
+        font-size: 1.5rem;
+    }
+    .letra-media{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
 }

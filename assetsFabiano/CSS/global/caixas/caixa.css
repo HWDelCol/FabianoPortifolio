@@ -1,0 +1,13 @@
+.caixa-grande{
+    width: 60rem;
+}
+@media screen and (max-width: 1111px) {
+    .caixa-grande{
+        width: 50rem;
+    }
+}
+@media screen and (max-width: 841px) {
+    .caixa-grande{
+        width: 30rem;
+    }
+}

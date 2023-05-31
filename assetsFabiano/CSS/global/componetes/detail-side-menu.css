@@ -4,22 +4,22 @@
 .other-item::after{
     content: "";
     height: 20px;
-    width: 1px;
+    width: 2px;
     display: block;
     background: var(--cor-principal);
     position: absolute;
-    bottom: 30px;
-    left: 55px;
+    bottom: 35px;
+    left: 75px;
 }
 .last-other-item::before{
     content: "";
     height: 20px;
-    width: 1px;
+    width: 2px;
     display: block;
     background: var(--cor-principal);
     position: absolute;
-    top: 30px;
-    left: 55px;
+    top: 35px;
+    left: 75px;
 }
 .first-item{
     position: relative;
@@ -27,12 +27,12 @@
 .first-item::after{
     content: "";
     height: 20px;
-    width: 1px;
+    width: 2px;
     display: block;
     background: var(--cor-principal);
     position: absolute;
-    bottom: 30px;
-    left: 55px;
+    bottom: 35px;
+    left: 75px;
 }
 .first-item::before{
     content: "";
@@ -41,8 +41,8 @@
     display: block;
     background: var(--cor-principal);
     position: absolute;
-    bottom: 45px;
-    left: 52px;
+    bottom: 55px;
+    left: 73px;
     border-radius: 50px;
 }
 .last-item{
@@ -51,12 +51,12 @@
 .last-item::after{
     content: "";
     height: 20px;
-    width: 1px;
+    width: 2px;
     display: block;
     background: var(--cor-principal);
     position: absolute;
     top: 30px;
-    left: 55px;
+    left: 75px;
 }
 .last-item::before{
     content: "";
@@ -66,6 +66,79 @@
     background: var(--cor-principal);
     position: absolute;
     top: 45px;
-    left: 52px;
+    left: 73px;
     border-radius: 50px;
+}
+@media screen and (max-width: 1081px) {
+    .other-item{
+        position: relative;
+    }
+    .other-item::after{
+        content: "";
+        height: 20px;
+        width: 2px;
+        display: block;
+        background: var(--cor-principal);
+        position: absolute;
+        bottom: 30px;
+        left: 60px;
+    }
+    .last-other-item::before{
+        content: "";
+        height: 20px;
+        width: 2px;
+        display: block;
+        background: var(--cor-principal);
+        position: absolute;
+        top: 30px;
+        left: 60px;
+    }
+    .first-item{
+        position: relative;
+    }
+    .first-item::after{
+        content: "";
+        height: 20px;
+        width: 2px;
+        display: block;
+        background: var(--cor-principal);
+        position: absolute;
+        bottom: 30px;
+        left: 60px;
+    }
+    .first-item::before{
+        content: "";
+        height: 7px;
+        width: 7px;
+        display: block;
+        background: var(--cor-principal);
+        position: absolute;
+        bottom: 45px;
+        left: 57px;
+        border-radius: 50px;
+    }
+    .last-item{
+        position: relative;
+    }
+    .last-item::after{
+        content: "";
+        height: 20px;
+        width: 2px;
+        display: block;
+        background: var(--cor-principal);
+        position: absolute;
+        top: 25px;
+        left: 60px;
+    }
+    .last-item::before{
+        content: "";
+        height: 7px;
+        width: 7px;
+        display: block;
+        background: var(--cor-principal);
+        position: absolute;
+        top: 40px;
+        left: 57px;
+        border-radius: 50px;
+    }
 }
