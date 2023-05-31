@@ -19,4 +19,9 @@
 .main-menu ul li a span{
     font-size: 2.5rem;
     color: var(--cor-principal);
+    transition: all 300ms;
+}
+.main-menu ul li a span:hover{
+    font-size: 2.5rem;
+    color: var(--cor-clara);
 }

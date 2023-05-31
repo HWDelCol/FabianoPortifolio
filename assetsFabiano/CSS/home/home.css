@@ -41,7 +41,7 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     overflow: hidden;
     background-image: url(../../imagens/bg-home.png);
     background-position: top center;
@@ -55,6 +55,48 @@ body{
 }
 .button:hover {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.cor-clara{
+    color: var(--cor-clara);
+}
+@media screen and (max-width: 1500px) {
+    .letra-grande{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 1210px) {
+    .letra-grande{
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 1035px) {
+    .letra-grande{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .esconder{
+        display: none;
+    }
+    .letra-media-dois{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 860px) {
+    .letra-grande{
+        font-size: 2.5rem;
+        font-weight: bold;
+
+    }
+    .esconder{
+        display: none;
+    }
+    .letra-media-dois{
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
 }
 @media screen and (max-width: 1035px) {
     .header{
